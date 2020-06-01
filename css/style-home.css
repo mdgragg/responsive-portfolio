@@ -10,8 +10,10 @@ nav {
   main {
     background: #6A7696;
     color: #051238;
-    height: 900px;
+    min-height: 770px;
+    height: auto;
     background-size: cover;
+    padding-bottom: 100px;
     
   }
 
@@ -20,6 +22,7 @@ nav {
     font-weight: 700;
     margin-top: 30px;
   }
+  
   p {
     font-family: "Libre Baskerville", serif;
   }
@@ -47,3 +50,18 @@ nav {
   .icons:hover  {
       opacity: 50%;
   }
+
+  footer {
+      background: #051238 ;
+      padding: 15px;
+      text-align: center;
+  }
+
+  footer p {
+    font-family: "Spartan", sans-serif;
+    font-weight: 300;
+    font-size: small;
+    color: #6A7696;
+    text-align: center;
+    margin-top: 15px;
+}
