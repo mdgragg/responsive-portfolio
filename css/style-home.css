@@ -37,7 +37,8 @@ nav {
   }
 
   .headshot {
-    width: 310px;
+    max-width: 310px;
+    width: 100%;
     margin: auto;
     border: #6A7696 solid 7px;
     margin-top: -100px;
