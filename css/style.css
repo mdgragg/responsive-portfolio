@@ -1,0 +1,81 @@
+nav {
+    font-family: "Spartan", sans-serif;
+    font-weight: 300;
+    background: #051238 ;
+  }
+  .navbar-brand {
+    font-family: "Spartan", sans-serif;
+    font-weight: 700;
+  }
+  main {
+    background: #6A7696;
+    color: #051238;
+    height: auto;;
+    background-size: cover;
+    
+  }
+
+  header h1 {
+    font-family: "Spartan", sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  p {
+    font-family: "Libre Baskerville", serif;
+  }
+
+
+  header {
+    height: 200px;
+    width: 100%;
+    margin-top: -50px;
+    background: #051238;
+  }
+
+  header h1 {
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+  }
+
+  header h5 {
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+} 
+
+
+.work-items {
+    margin-top: -50px;
+    transition: transform .2s;
+    transition: .5s ease;
+}
+
+.work-items img:hover {
+    transform: scale(1.05);
+    transition: .5s ease;
+    
+}
+.work { 
+    width: 100%;
+    object-fit: contain;;
+    margin-bottom: 25px;
+    border: #6A7696 solid 7px;
+  }
+
+
+.work-imagebox {
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+
+.bottom {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right:20px;
+    background:#051238;
+    padding: 10px;
+}

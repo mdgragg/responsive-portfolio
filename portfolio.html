@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+      crossorigin="anonymous"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;700;900&display=swap"
+      rel="stylesheet"/>
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-dark static-top mb-5 shadow"
+    >
+      <div class="container hidden-md-down">
+        <a class="navbar-brand text-white">MICHAEL GRAGG</a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <span class="sr-only">(current)</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"> Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container hidden-lg-up">
+        <a class="navbar-brand text-white center-block">MICHAEL GRAGG</a>
+        <a class="nav-item text-white-50" href="index.html">About</a>
+        <a class="nav-item text-white" href="portfolio.html">Portfolio</a>
+        <a class="nav-item text-white-50" href="contact.html"> Contact</a>
+      </div>
+    </nav>
+
+    <main>
+      <header>
+        <h1>MY WORK</h1>
+        <h5>A few projects I have worked on</h5>
+      </header>
+      <div class="container work-items">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 work-imagebox">
+                <img class="work" src="images/portfolio/METALFORM-EDU.png" alt="METALFORM EDU">
+                <div class="bottom"><h6>METALFORM EDU - <small>An Online Training Software for the Metalforming Industry</small></h6></div>
+            </div>
+          <div class="col-lg-4 col-md-6 col-sm-12  work-imagebox">
+            <img class="work" src="images/portfolio/IMPACT.png" alt=" IMPACT" />
+            <div class="bottom"><h6>IMPACT - <small>Women in Manufacturing (WiM) Quarterly Newsletter</small></h6></div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12  work-imagebox">
+            <img class="work" src="images/portfolio/SUMMIT.png" alt="SUMMIT" />
+            <div class="bottom"><h6>SUMMIT - <small>Women in Manufacturing's (WiM) Annual 3-day National Conference</small></h6></div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12  work-imagebox">
+            <img class="work" src="images/portfolio/LeadershipLab.png" alt="LeadershipLab" />  
+            <div class="bottom"><h6>Leadership Lab - <small>Women in Manufacturing (WiM) Executive Education Program</small></h6></div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12  work-imagebox">
+            <img class="work" src="images/portfolio/GCSAE.png" alt="GCSAE" />  
+            <div class="bottom"><h6>GCSAE - <small>The Greater Cleveland Society of Association Executives</small></h6></div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12  work-imagebox">
+            <img class="work" src="images/portfolio/CorporateMemberPacket.png" alt="Corporate Member Packet " />  
+            <div class="bottom"><h6>Corporate Member Packet - <small>Book for New Women in Manufacturing (WiM) Corporate Members</small></h6></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
