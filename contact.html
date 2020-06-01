@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Contact</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -56,48 +56,45 @@
       </header>
 
 
-<div class="container form">
+<section class="container form">
     <div class="row">
         <div class="col-md-8">
-            <form id="contact-form" name="contact-form" action="mailto:contact@michaeldgragg.com" method="get"  >
+            <form id="contact-form" name="contact-form" action="mailto:contact@michaeldgragg.com" method="post" enctype="text/plain">
                 <div class="row">
-
-                    <div class="col-md-6">
+                    <figure class="col-md-6">
                         <div class="md-form">
                             <input type="text" id="name" name="name" class="form-control">
                             <label for="name" class="">Your name</label>
                         </div>
-                    </div>
-                    <div class="col-md-6">
+                    </figure>
+                    <figure class="col-md-6">
                         <div class="md-form">
                             <input type="text" id="email" name="email" class="form-control">
                             <label for="email" class="">Your email</label>
                         </div>
-                    </div>
+                    </figure>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
+                    <figure class="col-md-12">
                         <div class="md-form">
                             <input type="text" id="subject" name="subject" class="form-control">
                             <label for="subject" class="">Subject</label>
                         </div>
-                    </div>
+                    </figure>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
-
+                    <figure class="col-md-12">
                         <div class="md-form">
                             <textarea type="text" id="message" name="message" rows="5" class="form-control md-textarea"></textarea>
                             <label for="message">Your message</label>
                         </div>
-
-                    </div>
+                    </figure>
                 </div>
             </form>
 
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary">Send</a>
-            </div>
+            <figure class="text-center text-md-left mt-3">
+              <input class="button" type="submit" value="Send">
+            </figure>
         </div>
         
         <div class="col-md-4 text-center mt-4 mt-md-0">
@@ -116,14 +113,11 @@
             </ul>
         </div>
     </div>
+</section>
 
-</div>
-</div>
     </main>
     <footer class="fixed-bottom justify-content-center">
       <p>© Copyright Michael Gragg 2020</p>
     </footer>
   </body>
-</html>
-
 </html>

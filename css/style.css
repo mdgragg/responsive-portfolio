@@ -90,6 +90,17 @@ nav {
 }
 
 
+.button {
+  padding: 5px 30px;
+  background: #051238;
+  color: white;
+  border: none;
+  width: 30%;
+}
+.button:hover {
+  color: #6A7696;
+}
+
 footer {
   background: #051238 ;
   padding: 15px;
