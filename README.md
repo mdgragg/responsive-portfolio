@@ -8,7 +8,7 @@ Includes:
     Sticky footer that stays on the bottom of each page
 
 index.html (about page)
-    Current headshot
+Current headshot
     Short bio about me
     Icons with links to my linkedIn, github, and facebook account
     Email icon with link to send me an email
