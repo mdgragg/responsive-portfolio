@@ -1,4 +1,5 @@
- [responsive-portfolio](https://mdgragg.github.io/responsive-portfolio/) 
+ # responsive-portfolio
+ [Portfolio](https://mdgragg.github.io/responsive-portfolio/) 
 
 <img src="https://raw.githubusercontent.com/mdgragg/responsive-portfolio/master/images/ScreenShot.png" width="600" />
 
