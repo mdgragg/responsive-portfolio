@@ -1,6 +1,6 @@
  [responsive-portfolio](https://mdgragg.github.io/responsive-portfolio/) 
 
-<img src="https://raw.githubusercontent.com/mdgragg/responsive-portfolio/master/assets/images/screenshot.png" width="600" />
+<img src="https://raw.githubusercontent.com/mdgragg/responsive-portfolio/master/images/ScreenShot.png" width="600" />
 
 My responsive portfolio utilizing Bootstrap components and grid system.
 
